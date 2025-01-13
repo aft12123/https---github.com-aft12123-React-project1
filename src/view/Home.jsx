@@ -1,6 +1,10 @@
 import React from "react";
 import './Home.css';
 import i6 from '../Accetes/i.6.jpg';
+import i1 from '../Accetes/i.1.jpg';
+import i4 from '../Accetes/i.4.jpg';
+import i5 from '../Accetes/i.5.jpg';
+import i2 from '../Accetes/i.2.jpg';
 
 
 
@@ -33,19 +37,19 @@ const Home=()=>{
 </div>
     <div className="menu-items">
       <div className="item">
-        <img src="i.1.jpg"/>
+        <img src={i1}className="i1"/>
         <p>BREAKFAST</p>
       </div>
       <div className="item">
-        <img src="i.4.jpg"/>
+        <img src={i4}className="i4"/>
         <p>LUNCH</p>
       </div>
       <div className="item">
-        <img src="i.5.jpg"/>
+        <img src={i5}className="i5"/>
         <p>DINNER</p>
       </div>
       <div className="item">
-        <img src="i.2.jpg"/>
+        <img src={i2}className="i2"/>
       <p>SNACKS</p>
        </div>
     </div>
