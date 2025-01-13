@@ -92,20 +92,16 @@ h1, h2 {
     font-size: xx-large;
     color: darkgoldenrod;
   }
-  
-  
-  
-  .h1{
+.h1{
     position: relative;
     margin-top: -200px;
   }
-  .i6{
+.i6{
     width: 100%;
     height: 300px;
     border-radius: 40px;
   }
-
-  .KA{
+.KA{
     margin-left: 650px;
     color: 5px solid black;
     font-size: large;
