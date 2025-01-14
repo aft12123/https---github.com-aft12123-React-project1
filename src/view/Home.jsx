@@ -6,9 +6,6 @@ import i4 from '../Accetes/i.4.jpg';
 import i5 from '../Accetes/i.5.jpg';
 import i2 from '../Accetes/i.2.jpg';
 
-
-
-
 const Home=()=>{
     return(
         <div>
@@ -25,10 +22,10 @@ const Home=()=>{
     <div className="location"> 
       <label for="location">Select Location:</label>
       <select>
-        <option value="pune">pune</option>
-        <option value="mumbai">mumbai</option>
-        <option value="banglore">banglore</option>
-        <option value="channai">channai</option>
+        <option value="pune">Pune</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="banglore">Banglore</option>
+        <option value="channai">Channai</option>
       </select>
     </div>
   
