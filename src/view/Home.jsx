@@ -4,13 +4,11 @@ import i1 from '../Accetes/i.1.jpg';
 import i4 from '../Accetes/i.4.jpg';
 import i5 from '../Accetes/i.5.jpg';
 import i2 from '../Accetes/i.2.jpg';
-import KARES from'../view/KARES.jpg';
+
 const Home=()=>{
     return(
     <div>
-      <div>
-        <img src={KARES} className="KARES"/>
-    </div>
+      
    <div className="header"/>
   <div className="img"/>
   <div>
